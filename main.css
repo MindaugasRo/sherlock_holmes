@@ -1,0 +1,49 @@
+.container{
+    font-family: sans-serif;
+    background-color: #eaebed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+}
+
+#right-div {
+    width: 49%;
+    height: 100vh;  /* aukštį išlaiko 100% */
+
+    
+}
+
+#left-div { 
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#style-440 {
+    text-align: center;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 150px;
+  }
+
+
+/*
+align-items: center;
+display: flex;
+justify-content: center;
+*/
