@@ -10,9 +10,12 @@
 }
 
 #right-div {
-    width: 49%;
+    width: 50%;
     height: 100vh;  /* aukštį išlaiko 100% */
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #left-div { 
@@ -37,8 +40,6 @@ button {
     font-size: 1.1rem;
     cursor: pointer;
     transition: background-color 0.3s;
-    display: block; /* elementas paverčiamas į bloką, kad būtų galima naudoti 'margin' */
-    margin: 0 auto; /* elemento lygiavimas per vidurį */
     margin-top: 4%;
   }
 
