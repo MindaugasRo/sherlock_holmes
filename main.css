@@ -1,5 +1,5 @@
-.container{
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+.container {
+    font-family: "DM Sans", sans-serif;
 
     background-color: #eaebed;
     display: flex;
@@ -29,18 +29,11 @@
     align-items: center;
 }
 
-h1{
-
-}
-
-h3 {
-
-}
-
 #style-440 {
     text-align: center;
     width: 100%;
     text-align: center;
+    font-size: 5em;
 }
 
 button {
@@ -58,7 +51,7 @@ button {
 button:hover {
     background-color: #ffe040;
     color: #333;
-    font-weight: 900;
+    font-weight: 600;
     font-style: italic;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
